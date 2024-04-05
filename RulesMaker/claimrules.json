@@ -1,0 +1,31 @@
+[
+  {
+    "WorkflowName": "Claim Workflow",
+    "Rules": [
+      {
+        "RuleName": "ClaimBlankRule",
+        "ErrorMessage": "ClaimDateReported is required field",
+        "Enabled": true,
+        "Expression": "ClaimDateReported != null || ClaimDateReported!= \"\"",
+        "SuccessEvent": "Success"
+      },
+      {
+        "RuleName": "ClaimDateRule",
+        "SuccessEvent": "Success",
+        "ErrorMessage": "Error: ClaimDateReported is greater than today's date.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "ClaimDateReported<=DateTime.Today"
+      },
+      {
+        "RuleName": "ClaimEventRule",
+        "SuccessEvent": "Success",
+        "ErrorMessage": "Error: Claim date should be greater than or equal to event date.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "ClaimDate>=EventDate"
+      }
+
+    ]
+  }
+]
