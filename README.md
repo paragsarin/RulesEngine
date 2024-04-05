@@ -13,17 +13,21 @@ This project is a learning endeavor aimed at exploring the capabilities of Micro
 To get started with the project, follow these steps:
 
 # Clone the Repository: Clone this repository to your local machine using the following command:
-
 bash
 Copy code
 git clone https://github.com/your-username/microsoft-rulesengine-learning.git
-# Install Dependencies: Ensure that you have all the required dependencies installed. This project may require .NET SDK and additional libraries depending on your specific setup.
 
-# Explore the Code: Dive into the project codebase and explore various components, such as classes, methods, and configuration files. Pay special attention to the usage of RulesEngine and how rules are defined, registered, and executed.
+# Install Dependencies: 
+Ensure that you have all the required dependencies installed. This project may require .NET SDK and additional libraries depending on your specific setup.
 
-# Run the Examples: Execute the provided examples or create your own scenarios to test the capabilities of Microsoft RulesEngine. Experiment with different types of rules, inputs, and workflows to gain a deeper understanding of rule-based programming.
+# Explore the Code: 
+Dive into the project codebase and explore various components, such as classes, methods, and configuration files. Pay special attention to the usage of RulesEngine and how rules are defined, registered, and executed.
 
-# Contribute: If you're interested in contributing to the project, feel free to fork the repository, make changes, and submit pull requests. We welcome contributions from developers of all skill levels.
+# Run the Examples: 
+Execute the provided examples or create your own scenarios to test the capabilities of Microsoft RulesEngine. Experiment with different types of rules, inputs, and workflows to gain a deeper understanding of rule-based programming.
+
+# Contribute: 
+If you're interested in contributing to the project, feel free to fork the repository, make changes, and submit pull requests. We welcome contributions from developers of all skill levels.
 
 # Documentation
 For detailed documentation on Microsoft RulesEngine, refer to the official documentation and resources provided by Microsoft. Additionally, you can explore inline comments, code samples, and README files within the project for specific usage instructions and guidelines.
