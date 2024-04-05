@@ -12,7 +12,8 @@ This project is a learning endeavor aimed at exploring the capabilities of Micro
 #  Getting Started
 To get started with the project, follow these steps:
 
-# Clone the Repository: Clone this repository to your local machine using the following command:
+# Clone the Repository: 
+Clone this repository to your local machine using the following command:
 bash
 Copy code
 git clone https://github.com/your-username/microsoft-rulesengine-learning.git
